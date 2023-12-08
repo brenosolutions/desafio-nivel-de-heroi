@@ -36,6 +36,6 @@ const levelHeroi = (xp) => {
 }
 
 // Exiba a mensagem com o nome e o nível do herói
-herois.forEach((value, key) => {
+herois.forEach((value) => {
     console.log(`O Herói de nome ${value.name} está no nível de ${levelHeroi(value.xp)}`)
 })
